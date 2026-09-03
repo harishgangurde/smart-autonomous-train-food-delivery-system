@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "train-delivery-system",
+          "configurations": {
+            "android": "1:191765118615:android:4f9540af7726f04af633d2",
+            "web": "1:191765118615:web:0ce307b9a45c0a6bf633d2"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
