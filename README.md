@@ -145,6 +145,3 @@ railDine/
 
 ---
 
-## 🙋 Author
-
-Built by Harish Keshav Gangurde — a train food delivery system combining Flutter, FastAPI, Firebase, and an overhead-rail delivery robot concept for Indian Railways.
