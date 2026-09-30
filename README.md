@@ -144,4 +144,7 @@ railDine/
 - **Physical robot hardware** — the ESP32 firmware is a working reference implementation; Simulation Mode lets the full software stack (orders, tracking, analytics, alerts) be demoed end-to-end before hardware is built.
 
 ---
+## 🙋 Author
+
+Built by Harish Keshav Gangurde — a train food delivery system combining Flutter, FastAPI, Firebase, and an overhead-rail delivery robot concept for Indian Railways.
 
