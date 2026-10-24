@@ -96,7 +96,7 @@ flutter build apk --release   # real installable app — needed for silent OTP (
 
 Full Firebase wiring (Phone Auth, Firestore, Storage) — see [`FIREBASE_SETUP.md`](./FIREBASE_SETUP.md).
 
-> **Why build a real APK for passengers:** Firebase Phone Auth requires reCAPTCHA verification when running as a website in a browser. On a real installed Android app, this becomes a silent Play Integrity check instead — no browser popups. Use the web build for the Staff Chrome dashboard; use the installed APK for passengers.
+> **Why build a real APK for passengers:** Firebase Phone Auth requires reCAPTCHA verification when running as a website in a browser. On a real installed Android app, this becomes a silent Play Integrity check instead — no browser popups. Use the web build for the Staff Chrome dashboard;
 
 ---
 
